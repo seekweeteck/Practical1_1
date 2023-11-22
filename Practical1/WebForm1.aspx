@@ -9,10 +9,10 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <asp:Label ID="Label1" runat="server" Text="My Details"></asp:Label>
+            <asp:Label ID="lblTitle" runat="server" Text="My Details"></asp:Label>
         </div>
         <div>
-            <asp:Label ID="Label2" runat="server" Text="Name :">
+            <asp:Label ID="lblName" runat="server" Text="Name :">
             <asp:TextBox ID="txtName" runat="server"></asp:TextBox></asp:Label>&nbsp;
         </div>
         <div>
